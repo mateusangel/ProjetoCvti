@@ -1,0 +1,200 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+img{
+    object-fit: cover;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    justify-content:space-around;
+    margin-top: 10px;
+    padding: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+
+.l1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  
+}
+
+.l2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.l3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.l4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.l5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+    border: none;
+    justify-content: center;
+    
+    
+}
+
+:where(.card1,.card2,.card3,.card4,.card5,.card6){
+
+    width: 410px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 10px;
+   
+    
+
+
+}
+
+.card1{
+    background-image: url(https://www.oneup.com.br/arquivos/blusa-home-altover%C3%A3o-capri-summer23_novo.jpg?v=638055788865370000);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 5px;
+    
+}
+
+
+.card2{
+    background-image: url(https://www.oneup.com.br/arquivos/vestido-home-alto-ver%C3%A3o-capri-summer23.jpg?v=638055788884100000);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 5px;
+}
+
+.card3{
+    background-image: url(https://www.oneup.com.br/arquivos/cal%C3%A7a-home-altover%C3%A3o-capri_summer_23_novo.jpg?v=638055788881600000);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.card4{
+    background-image: url(pexels-bruno-salvadori-3046336.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.card5{
+    background-image: url(pexels-criativithy-1805411.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.card6{
+    background-image: url(pexels-jessica-nunes-1966688.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+
+
+:where(.card1,.card2,.card3):hover{
+    background-size: 110%;
+    cursor: pointer;
+    transition: 4s;
+
+}
+
+.texto{
+    color:#fffcfa;
+    font-size: 30px;
+    border: 1px solid black;
+    z-index: 1000;
+    width: 410px;
+    text-align: center;
+    height: 200px;
+    background-color: #d6b29e53;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    text-align: center;
+    align-self: flex-end;
+    margin-bottom: 40px;
+    padding: 4px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 30px;
+}
+.title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.texto2:hover{
+    color: white;
+    border-color:black ;
+}
+
+.footer{
+    margin-top: 70px;
+    padding-top: 15px;
+    border-top:1px solid rgba(0, 0, 0, 0.17) ;
+    
+   
+}
+
+.u1{
+    display: flex;
+    list-style: none;
+   justify-content: center;
+   gap: 20px;
+}
+
+form{
+    
+}
